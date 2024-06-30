@@ -1,0 +1,16 @@
+PS C:\Users\saaya\Desktop\TEST\git_challenge> git init
+Initialized empty Git repository in C:/Users/saaya/Desktop/TEST/git_challenge/.git/
+PS C:\Users\saaya\Desktop\TEST\git_challenge> git add hello_world.txt
+PS C:\Users\saaya\Desktop\TEST\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) faf4b89] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\saaya\Desktop\TEST\git_challenge> git add hello_world.txt
+PS C:\Users\saaya\Desktop\TEST\git_challenge> git commit -m "日本
+語訳を追加"
+[main f5dc9a5] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\saaya\Desktop\TEST\git_challenge> git log --oneline
+f5dc9a5 (HEAD -> main) 日本語訳を追加
+faf4b89 hello_world.txtを追加
+PS C:\Users\saaya\Desktop\TEST\git_challenge> 
